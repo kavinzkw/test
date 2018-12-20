@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>客户端-查询订单进度</title>
+		<link href="css/user_queryoid.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery1.9.0.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<style type="text/css">
+			#main{
+				width: 1920;
+				position: absolute;
+				margin:auto 700px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="main">
+		<table class="table" width="400px" border="1px solid black" cellpadding="0px" cellspacing="0px">
+			<tr><td colspan="3" align="center"><h2 style="font-size: 26px;">查询订单进度</h2></td></tr>
+			<tr>
+				<td>
+					订单编号：
+				</td>
+				<td>
+					<input type="text" id="query_oid" />
+				</td>
+				<td>
+					<input type="submit" value="确认" />
+				</td>
+			</tr>
+		</table>
+		<table cellpadding="0px" cellpadding="0px" border="1px" id="query_table">
+		</table>
+		</div>
+	</body>
+
+</html>
